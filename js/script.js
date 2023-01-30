@@ -17,4 +17,6 @@ console.log("Il tuo nome è: ",numero);
 // 5. Generare Password concantenando i dati richiesti
 let password = nome + cognome + colorePreferito + numero;
 console.log("La tua password è: ",password);
+
 // 6. Stampare Password su file HTML
+document.getElementById("pwd").innerHTML = password;
